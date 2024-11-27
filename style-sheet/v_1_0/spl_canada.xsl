@@ -966,9 +966,9 @@
 												<!-- [#109] we can support multiple company address blocks by providing more min height in css -->								
 											</div>
 											<div class="title-page-right">
-												<xsl:apply-templates select="v3:component/v3:section[v3:code/@code='0tp1.3']" mode="international-date-format"/>
-												<xsl:apply-templates select="v3:component/v3:section[v3:code/@code='0tp1.7']" mode="international-date-format"/>													
-												<xsl:apply-templates select="v3:component/v3:section[v3:code/@code='0tp1.4']" mode="international-date-format"/>
+												<xsl:apply-templates select="v3:component/v3:section[v3:code/@code='0tp1.3']" />
+												<xsl:apply-templates select="v3:component/v3:section[v3:code/@code='0tp1.7']" />													
+												<xsl:apply-templates select="v3:component/v3:section[v3:code/@code='0tp1.4']" />
 												<xsl:apply-templates select="v3:component/v3:section[v3:code/@code='0tp1.5']"/>
 											</div>
 										</div>											
