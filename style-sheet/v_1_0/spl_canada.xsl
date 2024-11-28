@@ -317,7 +317,13 @@
 		<xsl:text> (</xsl:text>
 			<xsl:value-of select="@code"/>
 		<xsl:text>) </xsl:text>		
-        <xsl:value-of select="format-number(/quantity/numerator/@value, '0.00', 'euro')"/>
+		<xsl:if test="/v3:document/v3:languageCode/@code = '2'">
+			<xsl:value-of select="format-number(/quantity/numerator/@value, '###.###,####', 'euro')"/>
+		</xsl:if>
+		<!---->
+		<!-- 				<xsl:text>TEST-&gt;</xsl:text> -->
+		<!-- <xsl:value-of select="/v3:document/v3:languageCode/@code"/> -->
+		<!-- 				<xsl:text>&lt;-TEST</xsl:text> -->
 	</xsl:template>
 		
 	<!-- Display the ingredient information (both active and inactive) -->
@@ -376,6 +382,9 @@
 							</xsl:when>
 							<xsl:when test="../@classCode='ACTIM'">
 								<xsl:apply-templates select="v3:activeMoiety/v3:activeMoiety/v3:code" mode="active-ingredient-bos"/>
+							</xsl:when>
+							<xsl:when test="../@classCode='IACT'">
+								<xsl:apply-templates select="v3:code" mode="active-ingredient-bos"/>
 							</xsl:when>
 						</xsl:choose>
 					</td>
@@ -659,8 +668,14 @@
 										
 					<xsl:for-each select="../v3:quantity">
 						<xsl:for-each select="v3:numerator">
-							<xsl:value-of select="@value"/>
-							<xsl:text> </xsl:text>
+							<xsl:choose>
+								<xsl:when test="/v3:document/v3:languageCode/@code = '2'">
+									<xsl:value-of select="format-number(@value, '###.###,####', 'euro')"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="@value"/>
+								</xsl:otherwise>
+							</xsl:choose>
 							<xsl:if test="@unit[. != '1']">
 								<xsl:value-of select="@unit"/>
 							</xsl:if>

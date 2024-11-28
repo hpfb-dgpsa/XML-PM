@@ -66,7 +66,7 @@
                 </asEntityWithGeneric>
                 <ingredient classCode="ACTIB">
                   <quantity>
-                    <numerator value="1.60" unit="mg"/>
+                    <numerator value="1.6" unit="mg"/>
                     <denominator value="1" unit="1"/>
                   </quantity>
                   <ingredientSubstance>
@@ -99,20 +99,19 @@
                     <name>Laque d’aluminium D&amp;C rouge no 30</name>
                   </ingredientSubstance>
                 </ingredient>
-				<asContent>
+		<asContent>
                   <quantity>
-                    <numerator value="15" unit="1"/>
+                    <numerator value="1.5" unit="1"/>
                     <denominator value="1"/>
                   </quantity>
-				  <containerPackagedProduct>
-				
+                  <containerPackagedProduct>
                     <formCode code="30008000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Flacon"/>
                   </containerPackagedProduct>
                   <subjectOf>
                     <marketingAct>
                       <effectiveTime>
                         <low value="20000522"/>
-						<high value="20091128"/>
+                        <high value="20091128"/>
                       </effectiveTime>
                     </marketingAct>
                   </subjectOf>
