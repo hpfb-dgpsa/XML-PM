@@ -72,7 +72,7 @@
 		<xsl:if test="position() = 1">
 			<tr>
 				<th scope="col" class="formTitle"><xsl:value-of select="$labels/partyAddress[@lang = $lang]"/></th>
-				<th scope="col" class="formTitle"><xsl:value-of select="$labels/partyAdditional[@lang = $lang]"/></th>
+				<!-- <th scope="col" class="formTitle"><xsl:value-of select="$labels/partyAdditional[@lang = $lang]"/></th> -->
 			</tr>
 		</xsl:if>
 		<tr class="formTableRowAlt">
@@ -85,32 +85,32 @@
 				<br/>
 				<xsl:value-of select="v3:addr/v3:country/@displayName"/>					
 			</td>
-			<td class="formItem Padded">
-				<xsl:value-of select="$labels/partyTel[@lang = $lang]"/><xsl:text>: </xsl:text>
-				<xsl:value-of select="substring-after(v3:telecom/@value[starts-with(.,'tel:')][1], 'tel:')"/>
-				<br/>
-				<xsl:for-each select="v3:telecom/@value[starts-with(.,'fax:')]">
-					<xsl:text>Fax: </xsl:text>
-					<xsl:value-of select="substring-after(., 'fax:')"/>
-					<br/>
-				</xsl:for-each>
-				<xsl:for-each select="v3:telecom/@value[starts-with(.,'mailto:')]">
-					<xsl:value-of select="$labels/partyEmail[@lang = $lang]"/><xsl:text>: </xsl:text>
-					<a>
-						<xsl:attribute name="href"><xsl:value-of select="."/></xsl:attribute>
-						<xsl:value-of select="substring-after(., 'mailto:')"/>
-					</a>
-					<br/>
-				</xsl:for-each>
-				<xsl:for-each select="v3:telecom/@value[starts-with(.,'http:') or starts-with(.,'https:')]">
-					<xsl:value-of select="$labels/partyWeb[@lang = $lang]"/><xsl:text>: </xsl:text>
-					<a>
-						<xsl:attribute name="href"><xsl:value-of select="."/></xsl:attribute>
-						<xsl:value-of select="."/>
-					</a>
-					<br/>
-				</xsl:for-each>
-			</td>
+			<!-- <td class="formItem Padded"> -->
+			<!-- 	<xsl:value-of select="$labels/partyTel[@lang = $lang]"/><xsl:text>: </xsl:text> -->
+			<!-- 	<xsl:value-of select="substring-after(v3:telecom/@value[starts-with(.,'tel:')][1], 'tel:')"/> -->
+			<!-- 	<br/> -->
+			<!-- 	<xsl:for-each select="v3:telecom/@value[starts-with(.,'fax:')]"> -->
+			<!-- 		<xsl:text>Fax: </xsl:text> -->
+			<!-- 		<xsl:value-of select="substring-after(., 'fax:')"/> -->
+			<!-- 		<br/> -->
+			<!-- 	</xsl:for-each> -->
+			<!-- 	<xsl:for-each select="v3:telecom/@value[starts-with(.,'mailto:')]"> -->
+			<!-- 		<xsl:value-of select="$labels/partyEmail[@lang = $lang]"/><xsl:text>: </xsl:text> -->
+			<!-- 		<a> -->
+			<!-- 			<xsl:attribute name="href"><xsl:value-of select="."/></xsl:attribute> -->
+			<!-- 			<xsl:value-of select="substring-after(., 'mailto:')"/> -->
+			<!-- 		</a> -->
+			<!-- 		<br/> -->
+			<!-- 	</xsl:for-each> -->
+			<!-- 	<xsl:for-each select="v3:telecom/@value[starts-with(.,'http:') or starts-with(.,'https:')]"> -->
+			<!-- 		<xsl:value-of select="$labels/partyWeb[@lang = $lang]"/><xsl:text>: </xsl:text> -->
+			<!-- 		<a> -->
+			<!-- 			<xsl:attribute name="href"><xsl:value-of select="."/></xsl:attribute> -->
+			<!-- 			<xsl:value-of select="."/> -->
+			<!-- 		</a> -->
+			<!-- 		<br/> -->
+			<!-- 	</xsl:for-each> -->
+			<!-- </td> -->
 		</tr>
 	</xsl:template>	
 
@@ -309,12 +309,15 @@
 		</xsl:choose>
 	</xsl:template>
 
+	<!-- Define the European decimal format -->
+	<xsl:decimal-format name="euro" decimal-separator="," grouping-separator="."/>
 	<!-- Templating for Active Ingredient Basis of Strength -->
 	<xsl:template match="v3:code" mode="active-ingredient-bos">
 		<xsl:value-of select="@displayName"/>
 		<xsl:text> (</xsl:text>
 			<xsl:value-of select="@code"/>
 		<xsl:text>) </xsl:text>		
+        <xsl:value-of select="format-number(/quantity/numerator/@value, '0.00', 'euro')"/>
 	</xsl:template>
 		
 	<!-- Display the ingredient information (both active and inactive) -->

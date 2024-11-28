@@ -4,16 +4,16 @@
 	<my:texts>		
 		<!-- English Labels -->
 		<tableOfContents lang="en">TABLE OF CONTENTS</tableOfContents>
-		<tocBoilerplate lang="en">Sections or subsections that are not applicable at the time of authorization are not listed.</tocBoilerplate>
+		<tocBoilerplate lang="en">Certain sections (as indicated in section 2.1. of the PM Guidance) or subsections that are not applicable at the time of the preparation of the most recent authorized product monograph are not listed.</tocBoilerplate>
 		<productDetails lang="en">PRODUCT DETAILS</productDetails>
 		<companyDetails lang="en">COMPANY DETAILS</companyDetails>
 		<labeler lang="en">Market Authorization Holder</labeler>
 		<registrant lang="en">Canadian Importer/Distributor</registrant>
 		<partyAddress lang="en">Contact Address</partyAddress>
-		<partyAdditional lang="en">Additional Contact Information</partyAdditional>
-		<partyEmail lang="en">Email</partyEmail>
-		<partyTel lang="en">Tel</partyTel>
-		<partyWeb lang="en">Web</partyWeb>
+		<!-- <partyAdditional lang="en">Additional Contact Information</partyAdditional> -->
+		<!-- <partyEmail lang="en">Email</partyEmail> -->
+		<!-- <partyTel lang="en">Tel</partyTel> -->
+		<!-- <partyWeb lang="en">Web</partyWeb> -->
 		<product lang="en">Product</product>
 		<productInfo lang="en">Product Information</productInfo>
 		<brandName lang="en">Brand Name</brandName>
@@ -48,7 +48,7 @@
 		<productRegStatus lang="en">Product Regulatory Status</productRegStatus>
 		<packageApprovalDate lang="en">Date Introduced</packageApprovalDate>
 		<packageRemovedDate lang="en">Date Removed</packageRemovedDate>
-		<productApprovalDate lang="en">Date of Initial Authorization</productApprovalDate>
+		<productApprovalDate lang="en">Date First Authorized in Canada (YYYY-MM-DD)</productApprovalDate>
 		<cancellationDate lang="en">Date of Cancellation</cancellationDate>
 		<marketingInfo lang="en">Product Status</marketingInfo>
 		<marketingCategory lang="en">Regulatory Activity Type</marketingCategory>
@@ -73,16 +73,16 @@
 		
 		<!-- French Labels -->
 		<tableOfContents lang="fr">TABLE DES MATIÈRES</tableOfContents>
-		<tocBoilerplate lang="fr">Les sections ou sous-sections qui ne sont pas pertinentes au moment de l’autorisation ne sont pas énumérées.</tocBoilerplate>
+		<tocBoilerplate lang="fr">Certaines sections (tel qu'indiqué dans la section 2.1 de la ligne directrice des monographies de produit) ou sous-sections qui ne s'appliquaient qui ne s'appliquaient pas au moment de la plus récente monographie de produit autorisée ne sont pas indiquées.</tocBoilerplate>
 		<productDetails lang="fr">INFORMATIONS SUR LE PRODUIT</productDetails>
 		<companyDetails lang="fr">RENSEIGNEMENTS SUR L’ENTREPRISE</companyDetails>
 		<labeler lang="fr">Titulaire de l’autorisation de mise sur le marché</labeler>
 		<registrant lang="fr">Importateur/distributeur canadien</registrant>
 		<partyAddress lang="fr">Adresse de l’enterprise</partyAddress>
-		<partyAdditional lang="fr">Autres coordonnées</partyAdditional>
-		<partyEmail lang="fr">Courriel&#160;</partyEmail>
-		<partyTel lang="fr">Tél.&#160;</partyTel>
-		<partyWeb lang="fr">Site Web&#160;</partyWeb>
+		<!-- <partyAdditional lang="fr">Autres coordonnées</partyAdditional> -->
+		<!-- <partyEmail lang="fr">Courriel&#160;</partyEmail> -->
+		<!-- <partyTel lang="fr">Tél.&#160;</partyTel> -->
+		<!-- <partyWeb lang="fr">Site Web&#160;</partyWeb> -->
 		<product lang="fr">Produit</product>
 		<productInfo lang="fr">Renseignements sur le produit</productInfo>
 		<brandName lang="fr">Nom commercial</brandName>
@@ -117,7 +117,7 @@
 		<productRegStatus lang="fr">État réglementaire du produit</productRegStatus>
 		<packageApprovalDate lang="fr">Date de mise en marché</packageApprovalDate>
 		<packageRemovedDate lang="fr">Date de retrait du marché</packageRemovedDate>
-		<productApprovalDate lang="fr">Date de l’autorisation initiale</productApprovalDate>
+		<productApprovalDate lang="fr">Date de la première autorisation au Canada (AAAA-MM-DD)</productApprovalDate>
 		<cancellationDate lang="fr">Date d’annulation</cancellationDate>
 		<marketingInfo lang="fr">État du produit</marketingInfo>
 		<marketingCategory lang="fr">Type d’activité de réglementation</marketingCategory>
