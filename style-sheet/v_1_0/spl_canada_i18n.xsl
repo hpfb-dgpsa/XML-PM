@@ -46,8 +46,8 @@
 		<packageDescription lang="en">Package Description</packageDescription>
 		<packageRegStatus lang="en">Package Available</packageRegStatus>
 		<productRegStatus lang="en">Product Regulatory Status</productRegStatus>
-		<packageApprovalDate lang="en">Date Introduced</packageApprovalDate>
-		<packageRemovedDate lang="en">Date Removed</packageRemovedDate>
+		<packageApprovalDate lang="en">Date Introduced (YYYY-MM-DD)</packageApprovalDate>
+		<packageRemovedDate lang="en">Date Removed (YYYY-MM-DD)</packageRemovedDate>
 		<productApprovalDate lang="en">Date First Authorized in Canada (YYYY-MM-DD)</productApprovalDate>
 		<cancellationDate lang="en">Date of Cancellation</cancellationDate>
 		<marketingInfo lang="en">Product Status</marketingInfo>
@@ -115,8 +115,8 @@
 		<packageDescription lang="fr">Description du conditionnement</packageDescription>
 		<packageRegStatus lang="fr">Conditionnement disponible</packageRegStatus>
 		<productRegStatus lang="fr">État réglementaire du produit</productRegStatus>
-		<packageApprovalDate lang="fr">Date de mise en marché</packageApprovalDate>
-		<packageRemovedDate lang="fr">Date de retrait du marché</packageRemovedDate>
+		<packageApprovalDate lang="fr">Date de mise en marché (AAAA-MM-DD)</packageApprovalDate>
+		<packageRemovedDate lang="fr">Date de retrait du marché (AAAA-MM-DD)</packageRemovedDate>
 		<productApprovalDate lang="fr">Date de la première autorisation au Canada (AAAA-MM-DD)</productApprovalDate>
 		<cancellationDate lang="fr">Date d’annulation</cancellationDate>
 		<marketingInfo lang="fr">État du produit</marketingInfo>
