@@ -4,7 +4,7 @@
 	<my:texts>		
 		<!-- English Labels -->
 		<tableOfContents lang="en">TABLE OF CONTENTS</tableOfContents>
-		<tocBoilerplate lang="en">Certain sections (as indicated in section 2.1. of the PM Guidance) or subsections that are not applicable at the time of the preparation of the most recent authorized product monograph are not listed.</tocBoilerplate>
+		<tocBoilerplate lang="en">Certain sections (as indicated in section 2.1 of the PM Guidance) or subsections that are not applicable at the time of the preparation of the most recent authorized product monograph are not listed.</tocBoilerplate>
 		<productDetails lang="en">PRODUCT DETAILS</productDetails>
 		<companyDetails lang="en">COMPANY DETAILS</companyDetails>
 		<labeler lang="en">Market Authorization Holder</labeler>
