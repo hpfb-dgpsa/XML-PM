@@ -320,8 +320,9 @@
 
 		<xsl:if test="/v3:document/v3:languageCode/@code = '2'">
 			<xsl:variable name="ingredientBosValue" select="number(/quantity/numerator/@value)" />
-			<xsl:if test="not($ingredientBosValue = 'NaN')">
+			<xsl:if test="$ingredientBosValue = $ingredientBosValue"> <!-- NaN does not equal to itself -->
 				<xsl:value-of select="format-number($ingredientBosValue, '###.###,####', 'euro')" />
+				TESTESTEST
 			</xsl:if>
 		</xsl:if>
 		<!---->
@@ -673,12 +674,12 @@
 					<xsl:for-each select="../v3:quantity">
 						<xsl:for-each select="v3:numerator">
 							<xsl:choose>
-								<xsl:if test="/v3:document/v3:languageCode/@code = '2'">
+								<xsl:when test="/v3:document/v3:languageCode/@code = '2'">
 									<xsl:variable name="numValue" select="number(/quantity/numerator/@value)" />
-									<xsl:if test="not($numValue = 'NaN')">
+									<xsl:if test="$numValue = $numValue">
 										<xsl:value-of select="format-number($numValue, '###.###,####', 'euro')" />
 									</xsl:if>
-								</xsl:if>
+								</xsl:when>
 								<xsl:otherwise>
 									<xsl:value-of select="@value"/>
 								</xsl:otherwise>
