@@ -89,7 +89,7 @@
 		<nonPropName lang="fr">Dénomination commune</nonPropName>
 		<din lang="fr">Numéro d’identification du médicament (DIN)</din>
 		<adminRoute lang="fr">Voie d’administration</adminRoute>
-		<dosageForm lang="fr">Forme pharmaceutique fabriquée</dosageForm>
+		<dosageForm lang="fr">Forme posologiques fabriquée</dosageForm>
 		<composition lang="fr">Composition du produit</composition>
 		<activeIngredients lang="fr">Principe actif</activeIngredients>
 		<activeMoieties lang="fr">Fraction active</activeMoieties>
