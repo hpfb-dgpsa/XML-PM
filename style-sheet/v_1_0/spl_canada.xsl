@@ -675,8 +675,8 @@
 						<xsl:for-each select="v3:numerator">
 							<xsl:choose>
 								<xsl:when test="/v3:document/v3:languageCode/@code = '2'">
-									<xsl:variable name="numValue" select="number(/quantity/numerator/@value)" />
-									<xsl:if test="$numValue = $numValue">
+									<xsl:variable name="numValue" select="number(@value)" />
+									<xsl:if test="not(string($numValue) = 'NaN')">
 										<xsl:value-of select="format-number($numValue, '###.###,####', 'euro')" />
 									</xsl:if>
 								</xsl:when>
@@ -684,7 +684,9 @@
 									<xsl:value-of select="@value"/>
 								</xsl:otherwise>
 							</xsl:choose>
+							<xsl:text> </xsl:text>
 							<xsl:if test="@unit[. != '1']">
+								<xsl:text> </xsl:text>
 								<xsl:value-of select="@unit"/>
 							</xsl:if>
 						</xsl:for-each>
@@ -701,7 +703,18 @@
 						</xsl:choose>						
 						<xsl:value-of select="$labels/inConnective[@lang = $lang]"/>
 						<xsl:for-each select="v3:denominator">
-							<xsl:value-of select="@value"/>
+							<xsl:choose>
+								<xsl:when test="/v3:document/v3:languageCode/@code = '2'">
+									<xsl:variable name="numValue" select="number(@value)" />
+									<xsl:if test="not(string($numValue) = 'NaN')">
+										<xsl:value-of select="format-number($numValue, '###.###,####', 'euro')" />
+									</xsl:if>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="@value"/>
+									<xsl:text> </xsl:text>
+								</xsl:otherwise>
+							</xsl:choose>
 							<xsl:text> </xsl:text>
 						</xsl:for-each>
 					</xsl:for-each>
