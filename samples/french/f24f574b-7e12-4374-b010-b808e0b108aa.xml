@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:2015/style-sheet/v_1_0/spl_canada.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://health-products.canada.ca/product-monograph/style-sheet/v_1_0/spl_canada.xsl"?>
 <document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://health-products.canada.ca/product-monograph/schema/SPL.xsd">
   <id root="f24f574b-7e12-4374-b010-b808e0b108aa"/>
   <code code="4" codeSystem="2.16.840.1.113883.2.20.6.10" displayName="MODÈLE PRINCIPAL"/>
@@ -66,7 +66,7 @@
                 </asEntityWithGeneric>
                 <ingredient classCode="ACTIB">
                   <quantity>
-                    <numerator value="1.6" unit="mg"/>
+                    <numerator value="160" unit="mg"/>
                     <denominator value="1" unit="1"/>
                   </quantity>
                   <ingredientSubstance>
@@ -79,15 +79,14 @@
                       </activeMoiety>
                     </activeMoiety>
                   </ingredientSubstance>
-                </ingredient>
+                </ingredient>   
                 <ingredient classCode="IACT">
                   <ingredientSubstance>
                     <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Acide citrique anhydre"/>
                     <name>Acide citrique anhydre</name>
                   </ingredientSubstance>
                 </ingredient>
-  
-                <ingredient classCode="IACT">
+                  <ingredient classCode="IACT">
                   <ingredientSubstance>
                     <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Dextrose"/>
                     <name>Dextrose</name>
@@ -95,23 +94,23 @@
                 </ingredient>
                 <ingredient classCode="IACT">
                   <ingredientSubstance>
-                    <code code="GE75M6YV5W" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Laque d’aluminium D&amp;C rouge no 30"/>
-                    <name>Laque d’aluminium D&amp;C rouge no 30</name>
+                    <code code="GE75M6YV5W" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Laque d'aluminium D&amp;C rouge no 30"/>
+                    <name>Laque d'aluminium D&amp;C rouge no 30</name>
                   </ingredientSubstance>
                 </ingredient>
-		<asContent>
+				<asContent>
                   <quantity>
-                    <numerator value="1.5" unit="1"/>
+                    <numerator value="15" unit="1"/>
                     <denominator value="1"/>
                   </quantity>
-                  <containerPackagedProduct>
+				  <containerPackagedProduct>	
                     <formCode code="30008000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Flacon"/>
                   </containerPackagedProduct>
                   <subjectOf>
                     <marketingAct>
                       <effectiveTime>
                         <low value="20000522"/>
-                        <high value="20091128"/>
+						<high value="20091128"/>
                       </effectiveTime>
                     </marketingAct>
                   </subjectOf>
@@ -121,21 +120,17 @@
                     <numerator value="25" unit="1"/>
                     <denominator value="1"/>
                   </quantity>
-                  <containerPackagedProduct>
-			
+                  <containerPackagedProduct>		
                     <formCode code="30008000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Flacon"/>
                   </containerPackagedProduct>
                   <subjectOf>
                     <marketingAct>
                       <effectiveTime>
-                        <low value="20050712"/>
-					
+                        <low value="20050712"/>		
                       </effectiveTime>
                     </marketingAct>
                   </subjectOf>
                 </asContent>
-
-       
               </manufacturedProduct>
               <subjectOf>
                 <approval>
@@ -167,20 +162,15 @@
                 <characteristic>
                   <code code="2" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="COULEUR"/>
                   <value code="C48328" codeSystem="2.16.840.1.113883.2.20.6.24" displayName="ROSE" xsi:type="CV">
-             
                   </value>
                 </characteristic>
               </subjectOf>              
 			  <subjectOf>
                 <characteristic>
                   <code code="3" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="FORME"/>
-                  <value code="C48348" codeSystem="2.16.840.1.113883.2.20.6.25" displayName="ROND" xsi:type="CV"/>
-            
+                  <value code="C48348" codeSystem="2.16.840.1.113883.2.20.6.25" displayName="ROND" xsi:type="CV"/>          
                 </characteristic>
               </subjectOf>			  
-       
- 
-	
               <subjectOf>
                 <characteristic>
                   <code code="5" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="RAINURE"/>
@@ -250,8 +240,7 @@
                       </activeMoiety>
                     </activeMoiety>
                   </ingredientSubstance>
-                </ingredient>				
-               
+                </ingredient>				  
 				 <ingredient classCode="IACT">
                   <ingredientSubstance>
                     <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Mannitol"/>
@@ -266,13 +255,10 @@
                 </ingredient>
                 <ingredient classCode="IACT">
                   <ingredientSubstance>
-                    <code code="H8AV0SQX4D" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Glycolate d’amidon sodique"/>
-                    <name>Glycolate d’amidon sodique</name>
+                    <code code="H8AV0SQX4D" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Glycolate d'amidon sodique"/>
+                    <name>Glycolate d'amidon sodique</name>
                   </ingredientSubstance>
                 </ingredient>
-  
-   
-				
 				<asContent>				  
 				  <quantity>
                     <numerator value="100" unit="1"/>
@@ -304,7 +290,6 @@
 							<denominator value="1"/>
 						</quantity>
 						<containerPackagedProduct>
-				
 							<formCode code="30009000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Boîte"/>
 						</containerPackagedProduct>
 						<subjectOf>
@@ -334,8 +319,7 @@
               <subjectOf>
                 <marketingAct>
                   <effectiveTime>
-                    <low value="20120420"/>
-               
+                    <low value="20120420"/>   
                   </effectiveTime>
                 </marketingAct>
               </subjectOf>
@@ -370,7 +354,7 @@
 			  <subjectOf>
                     <characteristic>
                       <code code="5" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="RAINURE"/>
-                      <value code="2" codeSystem="2.16.840.1.113883.2.20.6.4" displayName="2 (quadrisecte)" xsi:type="CV"/>
+                      <value code="2" codeSystem="2.16.840.1.113883.2.20.6.4" displayName="2 (quadrisect)" xsi:type="CV"/>
                     </characteristic>
               </subjectOf>
 			  <subjectOf>
@@ -437,8 +421,6 @@
                     <name>Polysorbate 80</name>
                   </ingredientSubstance>
                 </ingredient>
-       
-       
                 <ingredient classCode="IACT">
                   <ingredientSubstance>
                     <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Chlorure de sodium"/>
@@ -451,7 +433,6 @@
                     <name>Eau</name>
                   </ingredientSubstance>
                 </ingredient>
-       
 				<asContent>
                   <quantity>
 				    <numerator value="10" unit="mL"/>
@@ -506,7 +487,6 @@
 					</asContent>
 				  </containerPackagedProduct>					
 				</asContent>
-
               </manufacturedProduct>
               <subjectOf>
                 <approval>
@@ -571,7 +551,6 @@
                   <routeCode code="20045000" codeSystem="2.16.840.1.113883.2.20.6.7" displayName="Voie intraveineuse"/>
                 </substanceAdministration>
               </consumedIn>
-
             </manufacturedProduct>
           </subject>
           <subject>
@@ -579,7 +558,7 @@
               <manufacturedProduct>
                 <code code="01234564"/>
                 <name>BRAND NAME4</name>
-                <formCode code="xx" codeSystem="2.16.840.1.113883.2.20.6.3" displayName="CAPSULE (ENTÉROSOLUBLE)"/>
+                <formCode code="137" codeSystem="2.16.840.1.113883.2.20.6.3" displayName="Capsule (à libération retardée)"/>
                 <asEntityWithGeneric>
                   <genericMedicine>
                     <name>exemple de ACTIB</name>
@@ -594,12 +573,12 @@
                     <denominator value="1" unit="1"/>
                   </quantity>				  
                   <ingredientSubstance>
-                    <code code="0MZI008M96" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="SALMONELLA TYPHI TY21A LIVE ATTENUATED"/>
-                    <name>SALMONELLA TYPHI TY21A LIVE ATTENUATED</name>
+                    <code code="0MZI008M96" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Salmonella typhi ty21A vivant atténué"/>
+                    <name>Salmonella typhi ty21A vivant atténué</name>
                     <activeMoiety>
                       <activeMoiety>
-                        <code code="0MZI008M96" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="SALMONELLA TYPHI TY21A LIVE ATTENUATED"/>
-                        <name>SALMONELLA TYPHI TY21A LIVE ATTENUATED</name>
+                        <code code="0MZI008M96" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Salmonella typhi ty21A vivant atténué"/>
+                        <name>Salmonella typhi ty21A vivant atténué</name>
                       </activeMoiety>
                     </activeMoiety>
                   </ingredientSubstance>
@@ -627,8 +606,7 @@
                     <code code="70097M6I30" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Stéarate de magnésium"/>
                     <name>Stéarate de magnésium</name>
                   </ingredientSubstance>
-                </ingredient>
-										
+                </ingredient>									
                 <asContent>
                   <quantity>
 				    <numerator value="4" unit="1"/>
@@ -643,7 +621,6 @@
 							<denominator value="1"/>
 						</quantity>
 						<containerPackagedProduct>
-			
 							<formCode code="30009000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Boîte"/>
 						</containerPackagedProduct>
 						<subjectOf>
@@ -767,11 +744,6 @@
                     </asEquivalentSubstance>
                   </ingredientSubstance>
                 </ingredient>
-       
-     
-
-	
-   
                 <ingredient classCode="IACT">
 				  <quantity>
                     <numerator value="5" unit="mg"/>
@@ -782,7 +754,6 @@
                     <name>Croscarmellose sodique</name>
                   </ingredientSubstance>
                 </ingredient>
-  
                 <ingredient classCode="IACT">
                   <ingredientSubstance>
                     <code code="RFW2ET671P" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Hydroxypropylcellulose (1 600 000 de masse moléculaire moyenne en poids)"/>
@@ -801,15 +772,13 @@
                     <denominator value="1"/>
                   </quantity>
                   <containerPackagedProduct>
-           
-                    <formCode code="30007000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Plaquette"/>
+                  <formCode code="30007000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Plaquette"/>
                     <asContent>
                       <quantity>
                         <numerator value="4" unit="1"/>
                         <denominator value="1"/>
                       </quantity>
                       <containerPackagedProduct>
-               
                         <formCode code="30009000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Boîte"/>
                       </containerPackagedProduct>
 					  <subjectOf>					  							
@@ -822,9 +791,6 @@
                     </asContent>
                   </containerPackagedProduct>
                 </asContent>
-
-
-       
               </manufacturedProduct>
               <subjectOf>
                 <approval>
@@ -864,10 +830,8 @@
                 <characteristic>
                   <code code="3" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="FORME"/>
                   <value code="C48345" codeSystem="2.16.840.1.113883.2.20.6.25" displayName="OVAL" xsi:type="CV"/>
-            
                 </characteristic>
               </subjectOf>			  
-       
 			  <subjectOf>
                 <characteristic>
                   <code code="4" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="TAILLE"/>
@@ -880,15 +844,12 @@
                   <value value="10" unit="mm" xsi:type="PQ"/>
                 </characteristic>
               </subjectOf>
-	
-      
               <subjectOf>
                 <characteristic>
                   <code code="6" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="EMPREINTE"/>
                   <value xsi:type="ST">TE;250</value>
                 </characteristic>
               </subjectOf>
-	
               <subjectOf>
                 <characteristic>
                   <code code="9" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="NORME PHARMACEUTIQUE"/>
@@ -922,7 +883,7 @@
 				<formCode code="32" codeSystem="2.16.840.1.113883.2.20.6.3" displayName="Produit en plusiers éléments"/>
                 <asEntityWithGeneric>
                   <genericMedicine>
-                    <name>exemple de produit en plusieurs parties avec un seul DIN</name>
+                    <name>exemple de produit en plusieurs éléments avec un seul DIN</name>
                   </genericMedicine>
                 </asEntityWithGeneric>
                 <asContent>
@@ -931,7 +892,6 @@
                     <denominator value="1"/>
                   </quantity>
                   <containerPackagedProduct>
-           
                     <formCode code="30007000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Plaquette"/>
                     <asContent>
                       <quantity>
@@ -939,7 +899,6 @@
                         <denominator value="1"/>
                       </quantity>
                       <containerPackagedProduct>
-               
                         <formCode code="30009000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Boîte"/>
                       </containerPackagedProduct>
 					  <subjectOf>					  							
@@ -958,7 +917,6 @@
                     <denominator value="1" unit="1"/>
                   </quantity>
                   <partProduct>
-              
                     <name>HC-BRAND NAME6a</name>
                     <formCode code="137" codeSystem="2.16.840.1.113883.2.20.6.3" displayName="Capsule (à libération retardée)"/>
                     <asEntityWithGeneric>
@@ -1000,8 +958,6 @@
                         <name>Hydroxyde de magnésium</name>
                       </ingredientSubstance>
                     </ingredient>
-              
-            
                   </partProduct>
           		<subjectOf>
                 <approval>
@@ -1023,7 +979,6 @@
                   </effectiveTime>
                 </marketingAct>
               </subjectOf>	  
-					  
                   <subjectOf>
                     <characteristic>
                       <code code="1" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="TYPE DE PRODUIT"/>
@@ -1102,7 +1057,6 @@
                     <denominator value="1"/>
                   </quantity>
                   <partProduct>
-                
                     <name>HC-BRAND NAME6b</name>
                     <formCode code="85" codeSystem="2.16.840.1.113883.2.20.6.3" displayName="Comprimé"/>
                     <asEntityWithGeneric>
@@ -1151,7 +1105,6 @@
                       </ingredientSubstance>
                     </ingredient>
                   </partProduct>
-				  
 				<subjectOf>
                 <approval>
                   <id extension="210325"/>
@@ -1172,7 +1125,6 @@
                   </effectiveTime>
                 </marketingAct>
               </subjectOf>
-					  
                   <subjectOf>
                     <characteristic>
                       <code code="1" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="TYPE DE PRODUIT"/>
@@ -1201,7 +1153,6 @@
                       <value value="8" unit="mm" xsi:type="PQ"/>
                     </characteristic>
                   </subjectOf>
-              
                   <subjectOf>
                     <characteristic>
                       <code code="6" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="EMPREINTE"/>
@@ -1238,7 +1189,6 @@
                     <denominator value="1"/>
                   </quantity>
                   <partProduct>
-                
                     <name>HC-BRAND NAME6C</name>
                     <formCode code="5" codeSystem="2.16.840.1.113883.2.20.6.3" displayName="Capsule"/>
                     <asEntityWithGeneric>
@@ -1252,12 +1202,12 @@
                         <denominator value="1" unit="1"/>
                       </quantity>
                       <ingredientSubstance>
-                        <code code="804826J2HU" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Amoxicillin trihydrate"/>
-                        <name>Amoxicillin trihydrate</name>
+                        <code code="804826J2HU" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Trihydrate d'amoxicilline"/>
+                        <name>Trihydrate d'amoxicilline</name>
                         <activeMoiety>
                           <activeMoiety>
-                            <code code="9EM05410Q9" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Amoxicillin anhydrous"/>
-                            <name>Amoxicillin anhydrous</name>
+                            <code code="9EM05410Q9" codeSystem="2.16.840.1.113883.2.20.6.14" displayName="Amoxicilline anhydre"/>
+                            <name>Amoxicilline anhydre</name>
                           </activeMoiety>
                         </activeMoiety>
                       </ingredientSubstance>
@@ -1280,10 +1230,8 @@
                         <name>Polyéthylèneglycol</name>
                       </ingredientSubstance>
                     </ingredient>
-	
                   </partProduct>
-				  
-				              <subjectOf>
+				<subjectOf>
                 <approval>
                   <id extension="210325"/>
                   <code code="4" codeSystem="2.16.840.1.113883.2.20.6.37" displayName="PADN"/>
@@ -1329,12 +1277,8 @@
 					<characteristic>
 					  <code code="3" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="FORME"/>
                       <value code="C48336" codeSystem="2.16.840.1.113883.2.20.6.25" displayName="CAPSULE" xsi:type="CV"/>
-					
-				
                     </characteristic>
                   </subjectOf>
-         
-              
                   <subjectOf>
                     <characteristic>
                       <code code="6" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="EMPREINTE"/>
@@ -1396,7 +1340,7 @@
                 <formCode code="32" codeSystem="2.16.840.1.113883.2.20.6.3" displayName="Produit en plusiers éléments"/>
                 <asEntityWithGeneric>
                   <genericMedicine>
-                    <name>exemple de produit en plusieurs parties multiple DIN</name>
+                    <name>exemple de produit en plusieurs éléments multiple DIN</name>
                   </genericMedicine>
                 </asEntityWithGeneric>				
                 <asContent>
@@ -1405,14 +1349,12 @@
                     <denominator value="1"/>
                   </quantity>
 				  <containerPackagedProduct>
-				
                     <formCode code="30009000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Boîte"/>
                   </containerPackagedProduct>
                   <subjectOf>
                     <marketingAct>
                       <effectiveTime>
                         <low value="20201113"/>
-					
                       </effectiveTime>
                     </marketingAct>
                   </subjectOf>
@@ -1477,14 +1419,12 @@
                         <denominator value="1" />
                       </quantity>
                       <containerPackagedProduct>
-			
                         <formCode code="30007000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Plaquette" />
                       </containerPackagedProduct>
                       <subjectOf>
                         <marketingAct>
                           <effectiveTime>
 						    <low value="19950502" />
-            
                           </effectiveTime>
                         </marketingAct>
                       </subjectOf>
@@ -1538,8 +1478,6 @@
                       <value xsi:type="ST">C2</value>
                     </characteristic>
                   </subjectOf>	
-							  				  
-         
                   <subjectOf>
                     <characteristic>
                       <code code="10" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="ANNEXE"/>
@@ -1618,14 +1556,12 @@
                         <denominator value="1" />
                       </quantity>
                       <containerPackagedProduct>
-			
                         <formCode code="30007000" codeSystem="2.16.840.1.113883.2.20.6.32" displayName="Plaquette" />
                       </containerPackagedProduct>
                       <subjectOf>
                         <marketingAct>
                           <effectiveTime>
 						    <low value="20220206" />
-            
                           </effectiveTime>
                         </marketingAct>
                       </subjectOf>
@@ -1677,8 +1613,6 @@
                       <value xsi:type="ST">C1</value>
                     </characteristic>
                   </subjectOf>
-							  
-           
                   <subjectOf>
                     <characteristic>
                       <code code="10" codeSystem="2.16.840.1.113883.2.20.6.23" displayName="ANNEXE"/>
@@ -1697,7 +1631,6 @@
                     </substanceAdministration>
                   </consumedIn>				  
                 </part>					
-               
               </manufacturedProduct>
               <subjectOf>
                 <approval>
@@ -1742,7 +1675,7 @@
                   <content styleCode="bold"><sup>Pr</sup> NOM COMMERCIAL <sup>®</sup></content>
                 </paragraph>
                 <paragraph>dénomination commune</paragraph>
-                <paragraph>Forme posologique, Pour utilisation voie(s) d’administration, Teneur</paragraph>
+                <paragraph>Forme posologique, Pour utilisation voie(s) d'administration, Teneur</paragraph>
                 <paragraph>Norme pharmaceutique</paragraph>
                 <paragraph>Classe thérapeutique</paragraph>
                 <br/>
@@ -1751,7 +1684,7 @@
                   <item>texte</item>
                 </list>
                 <paragraph styleCode="Boxed Last">
-					bénéficie d’une autorisation de mise en marché avec conditions, dans l’attente des résultats d’études permettant d’attester son bienfait clinique. Les patients doivent être avisés de la nature de l’autorisation. Pour obtenir des renseignements supplémentaires sur NOM COMMERCIAL, veuillez consulter le site Web de Santé Canada sur les avis de conformité avec conditions – Médicaments :  
+					bénéficie d'une autorisation de mise en marché avec conditions, dans l'attente des résultats d'études permettant d'attester son bienfait clinique. Les patients doivent être avisés de la nature de l'autorisation. Pour obtenir des renseignements supplémentaires sur NOM COMMERCIAL, veuillez consulter le site Web de Santé Canada sur les avis de conformité avec conditions - Médicaments :  
 					<linkHtml href="https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/avis-conformite/conditions.html">https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/avis-conformite/conditions.html"</linkHtml></paragraph>
               </text>
               <effectiveTime value="20241201"/>
@@ -1782,15 +1715,14 @@
           <component>
             <section ID="bf2dab4e-fd04-4ec9-9cdc-247188622d0f">
               <id root="e5f1dea3-d907-4664-b46f-e1d9736d47af"/>
-              <code code="0tp1.3" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Date d’approbation:"/>
-              <title>Date d’approbation:</title>
+              <code code="0tp1.3" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Date d'approbation :"/>
+              <title>Date d'approbation :</title>
               <text>
                 <paragraph>2010-02-15</paragraph>
               </text>
-              <effectiveTime value="20210101"/>
+              <effectiveTime value="20241201"/>
             </section>
           </component>
-   
           <component>
             <section ID="ebc3f3dc-71be-424f-91ef-8aca8c138b21">
               <id root="efd8c4c1-d0dd-434d-b1c2-4daa18752fa8"/>
@@ -1825,10 +1757,10 @@
               <content styleCode="bold">Qu'est-ce qu'un avis de conformité avec conditions (AC-C)?</content>
             </paragraph>
             <paragraph>
-              <content styleCode="italics">Un AC-C est un type d’autorisation de mise en marché accordée à un produit sur la base de données d’efficacité clinique prometteuses, après l’évaluation de la présentation par Santé Canada.</content>
+              <content styleCode="italics">Un AC-C est un type d'autorisation de mise en marché accordée à un produit sur la base de données d'efficacité clinique prometteuses, après l'évaluation de la présentation par Santé Canada.</content>
             </paragraph>
             <paragraph>
-              <content styleCode="italics">Les produits autorisés conformément à la politique sur les AC-C de Santé Canada sont destinés aux traitement, à la prévention ou au diagnostic d’une maladie grave, mettant la vie en danger ou extrêmement invalidante. Ils ont démontré un bienfait prometteur, sont de haute qualité et présentent un profil d’innocuité acceptable d’après l’évaluation des risques et des avantages. En outre, ils répondent à un besoin médical important non satisfait au Canada ou ont démontré un rapport bienfaits-risques significativement meilleur que celui des produit existants. Santé Canada a donc autorisé ce produit à la condition que les fabricants entreprennent des études cliniques supplémentaires pour confirmer les bénéfices escomptés dans les délais convenus.</content>
+              <content styleCode="italics">Les produits autorisés conformément à la politique sur les AC-C de Santé Canada sont destinés aux traitement, à la prévention ou au diagnostic d'une maladie grave, mettant la vie en danger ou extrêmement invalidante. Ils ont démontré un bienfait prometteur, sont de haute qualité et présentent un profil d'innocuité acceptable d'après l'évaluation des risques et des avantages. En outre, ils répondent à un besoin médical important non satisfait au Canada ou ont démontré un rapport bienfaits-risques significativement meilleur que celui des produit existants. Santé Canada a donc autorisé ce produit à la condition que les fabricants entreprennent des études cliniques supplémentaires pour confirmer les bénéfices escomptés dans les délais convenus.</content>
             </paragraph>
           </text>
           <effectiveTime value="20210101"/>
@@ -1851,14 +1783,14 @@
                 <tr>
                   <td align="left">1 INDICATIONS, <linkHtml href="#b9db4ce0-3f46-434a-bd7b-4a3e010adaad">1.1 Pédiatrie
 				  </linkHtml></td>
-                  <td>12/2023</td>
+                  <td>2023-12</td>
                 </tr>
 				<tr>
                   <td align="left">3 ENCADRÉ SUR LES MISES EN GARDE ET PRÉCAUTIONS IMPORTANTES, Acidose lactique</td>
                   <td>[Supprimé] 2023-04</td>
                 </tr>
                 <tr>
-                  <td align="left">7 MISES EN GARDE ET PRÉCAUTIONS, <linkHtml href="#a473c162-e176-4ad0-b797-2b7b6cf00e43">7.1.1 Femmes enceintes</linkHtml></td>
+                  <td align="left">7 MISES EN GARDE ET PRÉCAUTIONS, <linkHtml href="#a473c162-e176-4ad0-b797-2b7b6cf00e43">7.1.1 Grossesse</linkHtml></td>
                   <td>2024-05</td>
                 </tr>
               </tbody>
@@ -1994,7 +1926,7 @@
                   <title>4.3 Reconstitution</title>
                   <text>
                     <paragraph>
-                      <content styleCode="bold">Solutions orales</content>
+                      <content styleCode="bold">Solutions orales :</content>
                     </paragraph>
                     <list>
                       <item>Exposé des faits ou tableau</item>
@@ -2064,8 +1996,8 @@
               <component>
                 <section ID="a63c98a5-e08a-472c-b8a2-a12dba105f5a">
                   <id root="a473c162-e176-44d0-b797-212b6cf00e33"/>
-                  <code code="pi04.7" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="4.7 Instructions pour la préparation et l’utilisation de produits radiopharmaceutiques"/>
-                  <title>4.7 Instructions pour la préparation et l’utilisation de produits radiopharmaceutiques</title>
+                  <code code="pi04.7" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="4.7 Instructions pour la préparation et l'utilisation de produits radiopharmaceutiques"/>
+                  <title>4.7 Instructions pour la préparation et l'utilisation de produits radiopharmaceutiques</title>
                   <text>
                     <paragraph>Exposé des faits ou liste</paragraph>
                   </text>
@@ -2082,7 +2014,7 @@
 					  <caption>Tableau 2 - Dose finale estimée</caption>
                       <thead>
                         <tr align="center">
-                          <th>ORGANE</th>
+                          <th>Organe</th>
                           <th>Dose absorbée par unité de radioactivité (mGy/MBq)</th>
                           <th>Dose absorbée calculée pour [XX MBq] administrés (mGy)</th>
                         </tr>
@@ -2093,11 +2025,6 @@
                           <td></td>
                           <td></td>
                         </tr>
-					  	<tr>
-						  <td>Corps entier</td>
-                          <td></td>
-                          <td></td>
-						</tr>
 						<tr>
                           <td>Estomac</td>
                           <td></td>
@@ -2184,17 +2111,11 @@
                           <td></td>
                           <td></td>
                         </tr>
-
-
-
-
                         <tr>
                           <td>Surfaces osseuses</td>
                           <td></td>
                           <td></td>
                         </tr>
-
-
                         <tr>
                           <td>Testicules</td>
                           <td></td>
@@ -2220,8 +2141,11 @@
                           <td></td>
                           <td></td>
                         </tr>
-
-
+						<tr>
+						  <td>Corps entier</td>
+                          <td></td>
+                          <td></td>
+						</tr>
                       </tbody>
                     </table>
 					<paragraph>Équivalent de dose efficace (mSv/MBq) (rem/mCi)</paragraph>
@@ -2240,7 +2164,7 @@
               <text>
                 <paragraph>Exposé des faits</paragraph>
                 <paragraph styleCode="Boxed First Last">
-					Pour obtenir l’information la plus récente pour traiter une surdose présumée, communiquez avec le centre antipoison de votre région ou avec le numéro sans frais de Santé Canada, 1-844 POISON-X (1-844-764-7669).
+					Pour obtenir l'information la plus récente pour traiter une surdose présumée, communiquez avec le centre antipoison de votre région ou avec le numéro sans frais de Santé Canada, 1-844 POISON-X (1-844-764-7669).
 				</paragraph>
 			  </text>
               <effectiveTime value="20241201"/>
@@ -2257,7 +2181,7 @@
 				  <colgroup span="5"/>	
                   <thead>
                     <tr align="center">
-                      <th>Voie d’administration<footnote ID="Footnote1">Voici un exemple de note de bas de tableau qui s'étend sur toutes les colonnes et la largeur du tableau.</footnote></th>
+                      <th>Voie d'administration<footnote ID="Footnote1">Voici un exemple de note de bas de tableau qui s'étend sur toutes les colonnes et la largeur du tableau.</footnote></th>
                       <th>Forme posologique/teneur/composition<footnote>Voici un deuxième exemple de note de bas de tableau.</footnote></th>
                       <th>Ingrédients non médicinaux</th>
                     </tr>
@@ -2306,12 +2230,11 @@
               <id root="a4731162-e176-44d0-b797-2b7b6cf00e43"/>
               <code code="pi07" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="7 MISES EN GARDE ET PRÉCAUTIONS"/>
               <title>7 MISES EN GARDE ET PRÉCAUTIONS</title>
-
               <effectiveTime value="20241201"/>
 			  <component>
                 <section ID="a63c33a5-e08a-472c-b8a2-a12dee115f7a">
                   <id root="a473c162-e176-44d0-bb97-2b7bddf00e43" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Généralités" />
+                  <code code="60054" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Généralités" />
                   <title>Généralités</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2322,7 +2245,7 @@
 			  <component>
                 <section ID="a63c33a4-e08a-472c-b8a2-a12d76115f7a">
                   <id root="a473c161-e176-44d0-bb97-2b7b12f00e43" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil cardiovasculaire" />
+                  <code code="46976" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil cardiovasculaire" />
                   <title>Appareil cardiovasculaire</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2333,7 +2256,7 @@
 			  <component>
                 <section ID="a63c83a4-a3ba-cb0c-a1c2-a12d2e115d7a">
                   <id root="a0bac161-e186-42d0-6497-2b70e2f1cda1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil cutané" />
+                  <code code="25783" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil cutané" />
                   <title>Appareil cutané</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2344,7 +2267,7 @@
 			  <component>
                 <section ID="a63c3304-4aba-4b2c-b8a2-a12d26115c7a">
                   <id root="a073c161-e176-42d0-6897-2b7be2f10ea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil digestif" />
+                  <code code="21698" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil digestif" />
                   <title>Appareil digestif</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2355,7 +2278,7 @@
 			  <component>
                 <section ID="a63c3304-4aba-4b2c-b1a2-a12d26115c7a">
                   <id root="a0731161-e176-42d0-6897-2b7be2f10ea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil génito-urinaire" />
+                  <code code="29771" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil génito-urinaire" />
                   <title>Appareil génito-urinaire</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2366,7 +2289,7 @@
 			  <component>
                 <section ID="a63c8304-adba-4b2c-b1c2-a12d2e115d7a">
                   <id root="a0b31161-e186-42d0-6897-2b7be2f1cea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil musculosquelettique" />
+                  <code code="43884" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil musculosquelettique" />
                   <title>Appareil musculosquelettique</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2377,7 +2300,7 @@
 			  <component>
                 <section ID="a63c83a4-adba-4b0c-a1c2-a12d2e115d7a">
                   <id root="a0ba1161-e186-42d0-6497-2b70eaf1cda1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil respiratoire" />
+                  <code code="78525" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Appareil respiratoire" />
                   <title>Appareil respiratoire</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2388,7 +2311,7 @@
 			  <component>
                 <section ID="a63c33a5-e08a-472c-b8a2-a12d76115f7a">
                   <id root="a473c162-e176-44d0-bb97-2b7b12f00e43" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Cancérogenèse et génotoxicité" />
+                  <code code="53583" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Cancérogenèse et génotoxicité" />
                   <title>Cancérogenèse et génotoxicité</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2399,7 +2322,7 @@
 			  <component>
                 <section ID="a63c33a4-4aba-472c-b8a2-a12d76115c7a">
                   <id root="a473c161-e176-44d0-6897-2b7b12f10ea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Conduite et utilisation de machines" />
+                  <code code="52518" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Conduite et utilisation de machines" />
                   <title>Conduite et utilisation de machines</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2410,7 +2333,7 @@
 			  <component>
                 <section ID="a63c8344-adba-4bdc-b1c2-a12d2e115d7a">
                   <id root="a0b31161-e186-42d0-6497-2b7be2f1cda1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Considérations périopératoires" />
+                  <code code="20491" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Considérations périopératoires" />
                   <title>Considérations périopératoires</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2418,11 +2341,10 @@
 				  <effectiveTime value="20241201" />
                 </section>
               </component>
-				
 			  <component>
                 <section ID="a63c33a4-e08a-472c-b8a2-a12d76115c7a">
                   <id root="a473c161-e176-44d0-bb97-2b7b12f10e43" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Contamination" />
+                  <code code="55458" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Contamination" />
                   <title>Contamination</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2433,8 +2355,8 @@
 			  <component>
                 <section ID="a63c33a4-eaba-472c-b8a2-a12d76115c7a">
                   <id root="a473c161-e176-44d0-6897-2b7b12f10e43" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Dépendance, tolérance et risque d’abus" />
-                  <title>Dépendance, tolérance et risque d’abus</title>
+                  <code code="57360" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Dépendance, tolérance et risque d'abus" />
+                  <title>Dépendance, tolérance et risque d'abus</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
 				  </text>
@@ -2444,7 +2366,7 @@
 			  <component>
                 <section ID="a63c83a4-adba-4bdc-b1c2-a12d2e225d7a">
                   <id root="a0b31161-e186-42d0-6497-2b7beaf1cda1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Fonction rénale" />
+                  <code code="84660" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Fonction rénale" />
                   <title>Fonction rénale</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2455,7 +2377,7 @@
 			  <component>
                 <section ID="a63c8314-adba-4bdc-b1c2-a12d2e115d7a">
                   <id root="a0b31161-e186-42d0-6897-2b7be2f1cda1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Fonction visuelle" />
+                  <code code="73092" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Fonction visuelle" />
                   <title>Fonction visuelle</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2466,7 +2388,7 @@
 			  <component>
                 <section ID="a63c3304-aaba-4b2c-b1a2-a12d2e115c7a">
                   <id root="a0b31161-e176-42d0-6897-2b7be2f1aea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Fonctions hépatique, biliaire et pancréatique" />
+                  <code code="73555" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Fonctions hépatique, biliaire et pancréatique" />
                   <title>Fonctions hépatique, biliaire et pancréatique</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2477,7 +2399,7 @@
 			  <component>
                 <section ID="a63c83a4-adba-4bdc-b1c2-a12d2e115d7a">
                   <id root="a0b30161-e186-42d0-6497-2b7beaf1cda1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Fonction psychiatrique" />
+                  <code code="75094" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Fonction psychiatrique" />
                   <title>Fonction psychiatrique</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2485,11 +2407,10 @@
 				  <effectiveTime value="20241201" />
                 </section>
               </component>
-
 			  <component>
                 <section ID="a63c33a4-4aba-472c-b8a2-a12d26115c7a">
                   <id root="a473c161-e176-42d0-6897-2b7b12f10ea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Oreille/nez/gorge" />
+                  <code code="74120" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Oreille/nez/gorge" />
                   <title>Oreille/nez/gorge</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2500,10 +2421,9 @@
 			  <component>
                 <section ID="a63c83a4-adba-4bdc-a1c2-a12d2e115d7a">
                   <id root="a0ba1161-e186-42d0-6497-2b7beaf1cda1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Santé reproductive" />
+                  <code code="52416" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Santé reproductive" />
                   <title>Santé reproductive</title>
 				  <text>
-			
 				  <list>
 					<item><content styleCode="bold">Fertility</content></item>
 				  </list>
@@ -2519,7 +2439,7 @@
 			  <component>
                 <section ID="a63c83a4-adba-cb0c-a1c2-a12d2e115d7a">
                   <id root="a0bac161-e186-42d0-6497-2b70eaf1cda1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Sensibilité et résistance" />
+                  <code code="85761" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Sensibilité et résistance" />
                   <title>Sensibilité et résistance</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2530,7 +2450,7 @@
 			  <component>
                 <section ID="a63c8304-aaba-4b2c-b1c2-a12d2e115c7a">
                   <id root="a0b31161-e186-42d0-6897-2b7be201cea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Surveillance et examens de laboratoire" />
+                  <code code="35528" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Surveillance et examens de laboratoire" />
                   <title>Surveillance et examens de laboratoire</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2541,7 +2461,7 @@
 			  <component>
                 <section ID="a63c3304-4aba-472c-b8a2-a12d26115c7a">
                   <id root="a073c161-e176-42d0-6897-2b7b12f10ea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Système endocrinien et métabolisme" />
+                  <code code="43619" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Système endocrinien et métabolisme" />
                   <title>Système endocrinien et métabolisme</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2552,7 +2472,7 @@
 			  <component>
                 <section ID="a63c3304-aaba-4b2c-b1c2-a12d2e115c7a">
                   <id root="a0b31161-e176-42d0-6897-2b7be2f1cea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Système immunitaire" />
+                  <code code="31933" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Système immunitaire" />
                   <title>Système immunitaire</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2563,7 +2483,7 @@
 			  <component>
                 <section ID="a63c8314-adba-4b2c-b1c2-a12d2e115d7a">
                   <id root="a0b31161-e186-42d0-6897-2b7be2f1cea1" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Système nerveux" />
+                  <code code="96983" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Système nerveux" />
                   <title>Système nerveux</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2571,12 +2491,10 @@
 				  <effectiveTime value="20241201" />
                 </section>
               </component>
-				
-
 			  <component>
                 <section ID="a63c3304-4aba-4b2c-b1a2-a12d2e115c7a">
                   <id root="a0b31161-e176-42d0-6897-2b7be2f10ea3" />
-                  <code code="0000" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Système sanguin et lymphatique" />
+                  <code code="96319" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Système sanguin et lymphatique" />
                   <title>Système sanguin et lymphatique</title>
 				  <text>
 				  <paragraph>Narrative</paragraph>
@@ -2584,24 +2502,6 @@
 				  <effectiveTime value="20241201" />
                 </section>
               </component>
-
-
-
-
-
-
-
-
-
-
-
-
-
-			  
-			  
-			  
-			  
-			  
               <component>
                 <section ID="a63c33a5-e08a-472c-b8a2-a12dbc115f7a">
                   <id root="a473c162-e176-44d0-bb97-2b7b6cf00e43"/>
@@ -2611,8 +2511,8 @@
                   <component>
                     <section ID="a63c33a5-e08a-472c-b8a2-b12dbc115f7a">
                       <id root="a473c162-e176-4ad0-b797-2b7b6cf00e43"/>
-                      <code code="pi07.1.1" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="7.1.1 Femmes enceintes"/>
-                      <title>7.1.1 Femmes enceintes</title>
+                      <code code="pi07.1.1" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="7.1.1 Grossesse"/>
+                      <title>7.1.1 Grossesse</title>
                       <text>
                         <paragraph>Texte</paragraph>
 						<paragraph><content styleCode="xmChange">Texte<br/>Texte</content></paragraph>
@@ -2682,7 +2582,7 @@
                   <code code="pi08.2" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="8.2 Effets indésirables observés au cours des études cliniques"/>
                   <title>8.2 Effets indésirables observés au cours des études cliniques</title>
                   <text>
-                    <paragraph>Les essais cliniques sont menées dans des conditions très particulières. Par conséquent, la fréquence des effets indésirables observés au cours des essais cliniques peut ne pas refléter la fréquence observée dans la pratique clinique et ne doit pas être comparée à la fréquence déclarée dans les essais cliniques d’un autre médicament.</paragraph>
+                    <paragraph>Les essais cliniques sont menées dans des conditions très particulières. Par conséquent, la fréquence des effets indésirables observés au cours des essais cliniques peut ne pas refléter la fréquence observée dans la pratique clinique et ne doit pas être comparée à la fréquence déclarée dans les essais cliniques d'un autre médicament.</paragraph>
                     <paragraph>Exposé des faits</paragraph>
                     <table ID="Table4" rules="all" frame="border">
                       <caption>Tableau 4 - Effets indésirables observés au cours des études cliniques</caption>
@@ -2963,7 +2863,7 @@
                     <paragraph>Texte</paragraph>
                     <paragraph styleCode="bold">Élimination</paragraph>
                     <paragraph>Texte</paragraph>
-                    <paragraph styleCode="bold">Durée de l’effet</paragraph>
+                    <paragraph styleCode="bold">Durée de l'effet</paragraph>
                     <paragraph>Texte</paragraph>
                     <paragraph styleCode="bold">Populations et états pathologies particulieres</paragraph>
                     <paragraph>Texte</paragraph>
@@ -2975,7 +2875,7 @@
                       <item>
                         <content styleCode="bold">Sexe : </content>Texte</item>
                       <item>
-                        <content styleCode="bold">Femmes enceintes ou qui allaitent : </content>Texte</item>
+                        <content styleCode="bold">Grossesse ou qui allaitent : </content>Texte</item>
                       <item>
                         <content styleCode="bold">Polymorphisme génétique : </content>Texte</item>
                       <item>
@@ -2994,7 +2894,7 @@
 			  <component>
                 <section ID="da324c26-b939-4d3a-901e-519ccc314522">
                   <id root="cc0a2dd9-1c53-49dc-bad3-d6b420dc64e9"/>
-                  <code code="pi10.4" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="10.4 Immunogénicité"/>
+                  <code code="74237" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="10.4 Immunogénicité"/>
                   <title>10.4 Immunogénicité</title>
                   <text>
                     <paragraph>Exposé des faits</paragraph>
@@ -3050,7 +2950,7 @@
                 <paragraph>Propriétés physicochimiques :  Texte</paragraph>
                 <paragraph>Norme pharmaceutique :  Texte</paragraph>
                 <paragraph>
-                  <content styleCode="bold">Caractéristiques du produit</content>
+                  <content styleCode="bold">Caractéristiques du produit :</content>
                 </paragraph>
                 <paragraph>Exposé des faits</paragraph>
                 <paragraph>
@@ -3061,7 +2961,7 @@
               <effectiveTime value="20241201"/>
               <component>
                 <observationMedia ID="Image1">
-                  <text>Formule développée de l’amoxicilline</text>
+                  <text>Formule développée de l'amoxicilline</text>
                   <value xsi:type="ED" mediaType="image/jpeg">
                     <reference value="Structural-formula-amoxicillin.jpg"/>
                   </value>
@@ -3092,8 +2992,8 @@
                           <thead>
                             <tr align="center">
                               <th>Nº de l'essaie</th>
-                              <th>Plan de l’essai</th>
-                              <th>Posologie, voie d’administration et durée</th>
+                              <th>Plan de l'essai</th>
+                              <th>Posologie, voie d'administration et durée</th>
                               <th>Nombre de sujets (n)</th>
                               <th>Âge (tranche)</th>
                               <th>Sexe</th>
@@ -3135,8 +3035,7 @@
 							
 							<tbody>
                             <tr>
-                              <td colspan="7"><content styleCode="bold">Paramètre primaire</content></td>
-                             
+                              <td colspan="7"><content styleCode="bold">Paramètre primaire</content></td>               
                             </tr>
 							<tr>
                               <td>Paramètre primaire</td>
@@ -3145,15 +3044,11 @@
 							  <td>()<footnoteRef IDREF="testb" /></td>
 							  <td></td>
 							  <td></td>
-							  <td>()<footnoteRef IDREF="testb" /></td>
-                             
-                            </tr>
-							
+							  <td>()<footnoteRef IDREF="testb" /></td>                             
+                            </tr>							
 							<tr>
-                              <td colspan="7"><content styleCode="bold">Paramètres secondaires clés</content></td>
-                             
-                            </tr>
-							
+                              <td colspan="7"><content styleCode="bold">Paramètres secondaires clés</content></td>                           
+                            </tr>							
 							<tr>
                               <td>Paramètres secondaires</td>
 							  <td></td>
@@ -3161,13 +3056,9 @@
 							  <td>()<footnote ID="testb">Statistiquement significatif après correction pour la multiplicité pour la comparaison entre Médicament et Comparateur (p &lt; 0,05).</footnote></td>
 							  <td></td>
 							  <td></td>
-							  <td>()<footnoteRef IDREF="testb" /></td>
-                             
-                            </tr>
-						
-                          </tbody>
-                          
-					
+							  <td>()<footnoteRef IDREF="testb" /></td>                            
+                            </tr>						
+                          </tbody>					
                         </table>
                       </text>
                       <effectiveTime value="20241201"/>
@@ -3183,9 +3074,9 @@
 						 <caption>Tableau 9 - Résumé des données démographiques dans les études cliniques sur indication particulière</caption>
                           <thead>
                             <tr align="center">
-                              <th>Nº de l’essai</th>
-                              <th>Plan de l’essai</th>
-                              <th>Posologie, voie d’administration et durée</th>
+                              <th>Nº de l'essai</th>
+                              <th>Plan de l'essai</th>
+                              <th>Posologie, voie d'administration et durée</th>
                               <th>Nombre de sujets (n)</th>
                               <th>Âge (tranche)</th>
                               <th>Sexe</th>							
@@ -3210,9 +3101,7 @@
 							<tr align="center">
 							<th></th>
 							<th colspan="3">ESSAI X</th>
-
-							<th colspan="3">ESSAI Y</th>
-						
+							<th colspan="3">ESSAI Y</th>					
 							</tr>
 							<tr align="center">
 							<th></th>
@@ -3223,12 +3112,10 @@
 							<th>Comparateur<br/>(N = nb)</th>
 							<th>Différence entre les traitements corrigée<footnoteRef IDREF="testc" /><br/>(IC à 95 %)</th>
 							</tr>
-							</thead>
-							
+							</thead>						
 							<tbody>
                             <tr>
-                              <td colspan="7"><content styleCode="bold">Paramètre primaire</content></td>
-                             
+                              <td colspan="7"><content styleCode="bold">Paramètre primaire</content></td>                             
                             </tr>
 							<tr>
                               <td>Paramètre primaire</td>
@@ -3237,15 +3124,11 @@
 							  <td>()<footnoteRef IDREF="testd" /></td>
 							  <td></td>
 							  <td></td>
-							  <td>()<footnoteRef IDREF="testd" /></td>
-                             
-                            </tr>
-							
+							  <td>()<footnoteRef IDREF="testd" /></td>                             
+                            </tr>							
 							<tr>
-                              <td colspan="7"><content styleCode="bold">Paramètres secondaires clés</content></td>
-                             
-                            </tr>
-							
+                              <td colspan="7"><content styleCode="bold">Paramètres secondaires clés</content></td>                             
+                            </tr>							
 							<tr>
                               <td>Paramètres secondaires</td>
 							  <td></td>
@@ -3253,13 +3136,9 @@
 							  <td>()<footnote ID="testd">Statistiquement significatif après correction pour la multiplicité pour la comparaison entre Médicament et Comparateur (p &lt; 0,05).</footnote></td>
 							  <td></td>
 							  <td></td>
-							  <td>()<footnoteRef IDREF="testd" /></td>
-                             
-                            </tr>
-						
-                          </tbody>
-                          
-					
+							  <td>()<footnoteRef IDREF="testd" /></td>                            
+                            </tr>						
+                          </tbody>					
                         </table>
                       </text>
                       <effectiveTime value="20241201"/>
@@ -3279,12 +3158,12 @@
 					  <colgroup span="5"/>					  
                       <thead>
                         <tr align="center">
-                          <th colspan="5">Nom de l’analyte<br/>(nombre d’unités x teneur)<br/>Moyenne géométrique<br/>Moyenne arithmétique (% de CV)</th>
+                          <th colspan="5">Nom de l'analyte<br/>(nombre d'unités x teneur)<br/>Moyenne géométrique<br/>Moyenne arithmétique (% de CV)</th>
                         </tr>
                         <tr align="left">
                           <th>Paramètre</th>
-                          <th>Test<footnote>NOM COMMERCIAL du produit à l’étude (dénomination commune), la forme pharmaceutique, teneurs et nom détenteur de l’autorisation de mise en marché.</footnote></th>
-                          <th>Référence<footnote>NOM COMMERCIAL du produit de référence (dénomination commune), la forme posologique, teneur, nom du détenteur de l’autorisation de mise en marché et le pays d’origine.</footnote></th>
+                          <th>Test<footnote>NOM COMMERCIAL du produit à l'étude (dénomination commune), forme posologique, teneurs et nom détenteur de l'autorisation de mise en marché.</footnote></th>
+                          <th>Référence<footnote>NOM COMMERCIAL du produit de référence (dénomination commune), forme posologique, teneur, nom du détenteur de l'autorisation de mise en marché et le pays d'origine.</footnote></th>
                           <th>Rapport de moyennes géométriques (%)</th>
                           <th>Intervalle de confiance de 90 %</th>
                         </tr>
@@ -3331,8 +3210,6 @@
                   <effectiveTime value="20241201"/>
                 </section>
               </component>
-       
-
             </section>
           </component>
           <component>
@@ -3367,7 +3244,6 @@
                   <content styleCode="bold">Toxicologie particulière </content>description</paragraph>
               </text>
               <effectiveTime value="20241201"/>
-
             </section>
           </component>
           <component>
@@ -3377,8 +3253,7 @@
               <title>17 MONOGRAPHIES DE RÉFÉRENCE</title>
               <text>
                 <list listType="ordered">
-                  <item>NOM COMMERCIAL, forme posologique, teneur, numéro de contrôle, Monographie de produit, fabricant, (AAAA-MM-JJ)</item>
-  
+                  <item>NOM COMMERCIAL, forme posologique, teneur, numéro de contrôle, Monographie de produit, fabricant, (AAAA-MM-JJ)</item> 
                 </list>
               </text>
               <effectiveTime value="20210101"/>
@@ -3404,8 +3279,8 @@
                 <paragraph>
                   <content styleCode="bold">dénomination commune</content>
                 </paragraph>
-                <paragraph>Ces Renseignements destinés aux patient·e·s sont rédigés pour la personne qui prendra NOM COMMERCIAL. Il peut s’agir de vous ou d’une personne dont vous vous occupez. Lisez attentivement ces renseignements. Conservez-les, car vous devrez peut-être les relire.</paragraph>
-                <paragraph>Ces Renseignements destinés aux patient·e·s sont un résumé. Ils ne sont pas complets. Si vous avez des questions au sujet de ce médicament ou si vous souhaitez obtenir de plus amples renseignements au sujet de NOM COMMERCIAL, adressez-vous à un professionnel de la santé.</paragraph>
+                <paragraph>Ces Renseignements Destinés aux Patient·e·s sont rédigés pour la personne qui prendra NOM COMMERCIAL. Il peut s'agir de vous ou d'une personne dont vous vous occupez. Lisez attentivement ces renseignements. Conservez-les, car vous devrez peut-être les relire.</paragraph>
+                <paragraph>Ces Renseignements Destinés aux Patient·e·s sont un résumé. Ils ne sont pas complets. Si vous avez des questions au sujet de ce médicament ou si vous souhaitez obtenir de plus amples renseignements au sujet de NOM COMMERCIAL, adressez-vous à un professionnel de la santé.</paragraph>
 				<paragraph styleCode="bold">Encadré sur les « mises en garde et précautions importantes »</paragraph>
                 <list styleCode="Boxed First Last">
                   <item>Texte</item>
@@ -3425,25 +3300,25 @@
                   <item>Texte</item>
                   <item>Texte</item>
                 </list>
-                <paragraph styleCode="Boxed First">"Pour l’indication ci-dessous, NOM COMMERCIAL a été approuvé avec conditions (AC-C). Cela signifie que Santé Canada a conclu son examen du dossier et que ce produit peut être vendu et acheté au Canada, mais que le fabricant a accepté d’effectuer d’autres études pour confirmer que le produit agit bien comme prévu. Consultez votre professionnel de la santé pour obtenir de plus amples renseignements."</paragraph>
+                <paragraph styleCode="Boxed First">"Pour l'indication ci-dessous, NOM COMMERCIAL a été approuvé avec conditions (AC-C). Cela signifie que Santé Canada a conclu son examen du dossier et que ce produit peut être vendu et acheté au Canada, mais que le fabricant a accepté d'effectuer d'autres études pour confirmer que le produit agit bien comme prévu. Consultez votre professionnel de la santé pour obtenir de plus amples renseignements."</paragraph>
                 <list styleCode="Boxed" listType="unordered">
                   <item>Texte</item>
                 </list>
-                <paragraph styleCode="Boxed">"Pour l’indication ci-dessous, NOM COMMERCIAL a été approuvé sans conditions. Cela signifie que Santé Canada a conclu son examen du dossier et que ce produit peut être vendu et acheté au Canada."</paragraph>
+                <paragraph styleCode="Boxed">"Pour l'indication ci-dessous, NOM COMMERCIAL a été approuvé sans conditions. Cela signifie que Santé Canada a conclu son examen du dossier et que ce produit peut être vendu et acheté au Canada."</paragraph>
                 <list styleCode="Boxed Last" listType="unordered">
                   <item>Texte</item>
                 </list>
                 <paragraph>
-                  <content styleCode="bold italics">Qu’est-ce qu’un avis de conformité avec conditions (AC-C)? </content>
+                  <content styleCode="bold italics">Qu'est-ce qu'un avis de conformité avec conditions (AC-C)? </content>
                 </paragraph>
                 <paragraph>
-                  <content styleCode="italics">Un avis de conformité avec conditions (AC-C) est un type d’approbation qui permet de vendre d’un médicament au Canada.</content>
+                  <content styleCode="italics">Un avis de conformité avec conditions (AC-C) est un type d'approbation qui permet de vendre d'un médicament au Canada.</content>
                 </paragraph>
                 <paragraph>
-                  <content styleCode="italics">Seul un produit qui permet de traiter, de prévenir ou de détecter une maladie grave ou mettant la vie en danger peut faire l’objet d’une approbation avec conditions de Santé Canada. Ces produits doitêtre prometteur sur le plan de l’efficacité, de grande qualité et raisonnablement sûrs. De même, ils doivent répondre à un besoin médical important au Canada ou être considérablement plus sûrs que les produits existant.</content>
+                  <content styleCode="italics">Seul un produit qui permet de traiter, de prévenir ou de détecter une maladie grave ou mettant la vie en danger peut faire l'objet d'une approbation avec conditions de Santé Canada. Ces produits doitêtre prometteur sur le plan de l'efficacité, de grande qualité et raisonnablement sûrs. De même, ils doivent répondre à un besoin médical important au Canada ou être considérablement plus sûrs que les produits existant.</content>
                 </paragraph>
                 <paragraph>
-                  <content styleCode="italics">Les fabricants doivent convenir par écrit d’indiquer clairement dans la monographie que le produit a obtenu un AC-C, d’effectuer d’autre sétudes pour vérifier que le produit agit bien comme il se doit, d’assurer une surveillance après la vente et de signaler leurs observations à Santé Canada.</content>
+                  <content styleCode="italics">Les fabricants doivent convenir par écrit d'indiquer clairement dans la monographie que le produit a obtenu un AC-C, d'effectuer d'autre sétudes pour vérifier que le produit agit bien comme il se doit, d'assurer une surveillance après la vente et de signaler leurs observations à Santé Canada.</content>
                 </paragraph>
               </text>
               <effectiveTime value="20241201"/>
@@ -3466,7 +3341,7 @@
               <code code="pmi04" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Les ingrédients de [NOM COMMERCIAL] sont :"/>
               <title>Les ingrédients de NOM COMMERCIAL sont :</title>
               <text>
-                <paragraph>Ingrédient(s) médicinal(aux) : ingrédient, ingrédient, ingrédient</paragraph>
+                <paragraph>Ingrédients médicinaux : ingrédient, ingrédient, ingrédient</paragraph>
 				<paragraph>Ingrédients non médicinaux : ingrédient, ingrédient, ingrédient</paragraph>
               </text>
               <effectiveTime value="20241201"/>
@@ -3476,9 +3351,9 @@
             <section ID="bca4d498-0gc3-4e54-bcb6-550130d4de5d">
               <id root="be74b6e6-c431-4a5f-a18e-ed3a1b381456"/>
               <code code="pmi05" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="[NOM COMMERCIAL] se présente sous la ou les formes pharmaceutiques suivantes :"/>
-              <title>NOM COMMERCIAL se présente sous les formes posologiques suivantes :</title>
+              <title>NOM COMMERCIAL se présente sous la ou les formes pharmaceutiques suivantes :</title>
               <text>
-                <paragraph>Formes pharmaceutiques et teneurs/concentrations</paragraph>
+                <paragraph>formes posologiques et teneurs</paragraph>
               </text>
               <effectiveTime value="20241201"/>
             </section>
@@ -3500,8 +3375,8 @@
           <component>
             <section ID="b6b37351-bbc9-46d9-b148-27ba3cb0a75e">
               <id root="be74b6e6-c431-4a5f-a18e-ed32cc381456"/>
-              <code code="pmi07" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Consultez votre professionnel de la santé avant d'utiliser [NOM COMMERCIAL], d'assurer l'utilisation ad-équate du médicament et d'aider à éviter les effets secondaires. Informez votre professionnel de la santé de votre état actuel et de vos problèmes de santé, notamment :"/>
-              <title>Consultez votre professionnel de la santé avant d'utiliser NOM COMMERCIAL, d'assurer l'utilisation ad équate du médicament et d'aider à éviter les effets secondaires. Informez votre professionnel de la santé de votre état actuel et de vos problèmes de santé, notamment :</title>
+              <code code="pmi07" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Consultez votre professionnel de la santé avant d'utiliser [NOM COMMERCIAL], d'assurer l'utilisation adéquate du médicament et d'aider à éviter les effets secondaires. Informez votre professionnel de la santé de votre état actuel et de vos problèmes de santé, notamment :"/>
+              <title>Consultez votre professionnel de la santé avant d'utiliser NOM COMMERCIAL, d'assurer l'utilisation adéquate du médicament et d'aider à éviter les effets secondaires. Informez votre professionnel de la santé de votre état actuel et de vos problèmes de santé, notamment :</title>
               <text>
                 <list>
                   <item>Texte</item>
@@ -3519,7 +3394,7 @@
               <text>
                 <paragraph>Texte</paragraph>
                 <paragraph>
-                  <content styleCode="bold">Mentionnez à votre professionnel de la santé tout médition que vous prenez, y compris : médicaments, vitamines, minéraux, suppléments naturels ou produits de médecine parallèle.</content>
+                  <content styleCode="bold">Mentionnez à votre professionnel de la santé toute la médication que vous prenez, y compris : médicaments, vitamines, minéraux, suppléments naturels ou produits de médecine parallèle.</content>
                 </paragraph>
 				<paragraph>
 					<content styleCode="bold">Interactions médicamenteuses graves :</content>
@@ -3563,8 +3438,8 @@
           <component>
             <section ID="cd0892a2-0e32-4fb7-9cc9-1bbfff60dee7">
               <id root="be74b6e6-c431-4a5f-a18e-11321b381456"/>
-              <code code="pmi11" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Dose habituelle"/>
-              <title>Dose habituelle</title>
+              <code code="pmi11" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Dose habituelle :"/>
+              <title>Dose habituelle :</title>
               <text>
                 <paragraph>Texte</paragraph>
               </text>
@@ -3574,11 +3449,11 @@
           <component>
             <section ID="beaaa5b8-6693-4d4c-a897-fa5c9562b1be">
               <id root="be74b6e6-c431-4a5f-a18e-ed321b311456"/>
-              <code code="pmi12" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Surdose"/>
-              <title>Surdose</title>
+              <code code="pmi12" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Surdose :"/>
+              <title>Surdose :</title>
               <text>
                 <paragraph>Texte</paragraph>
-                <paragraph styleCode="Boxed First Last">Si vous pensez que vous ou une personne dont vous vous occupez avez pris trop de NOM COMMERCIAL, contactez immédiatement votre professionnel de la santé, le service des urgences d’un hôpital, votre centre antipoison régional ou le numéro sans frais de Santé Canada, 1-844 POISON-X (1-844-764-7669), même en l’absence de symptômes.</paragraph>
+                <paragraph styleCode="Boxed First Last">Si vous pensez que vous ou une personne dont vous vous occupez avez pris trop de NOM COMMERCIAL, contactez immédiatement votre professionnel de la santé, le service des urgences d'un hôpital, votre centre antipoison régional ou le numéro sans frais de Santé Canada, 1-844 POISON-X (1-844-764-7669), même en l'absence de symptômes.</paragraph>
               </text>
               <effectiveTime value="20210101"/>
             </section>
@@ -3586,8 +3461,8 @@
           <component>
             <section ID="ffd59b8d-fe66-4d86-a54f-0613d4168199">
               <id root="be74b6e6-c431-4a5f-a18e-ed321e381456"/>
-              <code code="pmi13" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Dose oubliée"/>
-              <title>Dose oubliée</title>
+              <code code="pmi13" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Dose oubliée :"/>
+              <title>Dose oubliée :</title>
               <text>
                 <paragraph>Texte</paragraph>
               </text>
@@ -3617,8 +3492,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td colspan="4"><content styleCode="bold">TRÈS FRÉQUENT</content></td>
-                   
+                      <td colspan="4"><content styleCode="bold">Très fréquent</content></td>              
                     </tr>
                     <tr>
                       <td><content styleCode="bold">Terme clinique </content>(description en langage clair) : symptômes</td>
@@ -3633,8 +3507,7 @@
                       <td/>
                     </tr>
                     <tr>
-                      <td colspan="4"><content styleCode="bold">FRÉQUENT</content></td>
-                 
+                      <td colspan="4"><content styleCode="bold">Fréquent</content></td>                 
                     </tr>
                     <tr>
                       <td><content styleCode="bold">Terme clinique </content>(description en langage clair) : symptômes</td>
@@ -3649,8 +3522,7 @@
                       <td/>
                     </tr>
 					<tr>
-                      <td colspan="4"><content styleCode="bold">PEU FRÉQUENT</content></td>
-                 
+                      <td colspan="4"><content styleCode="bold">Peu fréquent</content></td>                 
                     </tr>
                     <tr>
                       <td><content styleCode="bold">Terme clinique </content>(description en langage clair) : symptômes</td>
@@ -3665,8 +3537,7 @@
                       <td/>
                     </tr>
                     <tr>
-                      <td colspan="4"><content styleCode="bold">RARE</content></td>
-                 
+                      <td colspan="4"><content styleCode="bold">Rare</content></td>                
                     </tr>
                     <tr>
                       <td><content styleCode="bold">Terme clinique </content>(description en langage clair) : symptômes</td>
@@ -3681,8 +3552,7 @@
                       <td/>
                     </tr>
 					<tr>
-                      <td colspan="4"><content styleCode="bold">TRÈS RARE</content></td>
-                    
+                      <td colspan="4"><content styleCode="bold">Très rare</content></td>                    
                     </tr>
                     <tr>
                       <td><content styleCode="bold">Terme clinique </content>(description en langage clair) : symptômes</td>
@@ -3697,8 +3567,7 @@
                       <td/>
                     </tr>
 					<tr>
-                      <td colspan="4"><content styleCode="bold">INCONNUE</content></td>
-                    
+                      <td colspan="4"><content styleCode="bold">Inconnue</content></td>                   
                     </tr>
                     <tr>
                       <td><content styleCode="bold">Terme clinique </content>(description en langage clair) : symptômes</td>
@@ -3714,25 +3583,25 @@
                     </tr>
                   </tbody>
                 </table>
-                <paragraph>En cas de symptôme ou d’effet secondaire gênant non mentionné dans le présent document ou d’aggravation d’un symptôme ou d’un effet secondaire vous empêchant de vaquer à vos occupations quotidiennes, parlez à votre professionnel de la santé.</paragraph>
+                <paragraph>En cas de symptôme ou d'effet secondaire gênant non mentionné dans le présent document ou d'aggravation d'un symptôme ou d'un effet secondaire vous empêchant de vaquer à vos occupations quotidiennes, parlez à votre professionnel de la santé.</paragraph>
                 <paragraph styleCode="Boxed First">
                   <content styleCode="bold">Déclaration des effets secondaires</content>
                 </paragraph>
-                <paragraph styleCode="Boxed">Vous pouvez déclarer à Santé Canada des effets secondaires soupçonnés d’être associés à l’utilisation des produits de santé de l’une des deux façons suivantes :</paragraph>
+                <paragraph styleCode="Boxed">Vous pouvez déclarer à Santé Canada des effets secondaires soupçonnés d'être associés à l'utilisation des produits de santé de l'une des deux façons suivantes :</paragraph>
                 <list styleCode="Boxed unordered">
                   <item>En consultant la page Web sur la <linkHtml href="https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medeffet-canada/declaration-effets-indesirables.html"> déclaration des effets indésirables </linkHtml>pour savoir comment faire une déclaration en ligne, par courriel, ou par télécopieur; ou </item>
                   <item>En téléphonant sans frais au 1-866-234-2345.</item>
                 </list>
                 <paragraph styleCode="Boxed Last">
-                  <content styleCode="italics">REMARQUE : Consultez votre professionnel de la santé si vous souhaitez obtenir des renseignements sur la prise en charge des effets secondaires. Le Programme Canada Vigilance ne donne pas de conseils médicaux.</content>
+                  <content styleCode="italics">Remarque : Consultez votre professionnel de la santé si vous souhaitez obtenir des renseignements sur la prise en charge des effets secondaires. Le Programme Canada Vigilance ne donne pas de conseils médicaux.</content>
                 </paragraph>
                 <paragraph styleCode="Boxed First">
                   <content styleCode="bold">Déclaration des effets secondaires soupçonnés des vaccins</content>
                   <br></br>
-                  <content styleCode="bold">À l’intention du grand public : </content>Si vous présentez un effet secondaire après avoir reçu un vaccin, veuillez le signaler à votre professionnel de la santé.</paragraph>
-                <paragraph styleCode="Boxed">Si vous avez besoin de renseignements sur la prise en charge des effets secondaires, veuillez contacter votre professionnel de la santé. L’Agence de la santé publique du Canada (ASPC), Santé Canada et nom du fabricant ne peuvent pas donner de conseils médicaux.</paragraph>
+                  <content styleCode="bold">À l'intention du grand public : </content>Si vous présentez un effet secondaire après avoir reçu un vaccin, veuillez le signaler à votre professionnel de la santé.</paragraph>
+                <paragraph styleCode="Boxed">Si vous avez besoin de renseignements sur la prise en charge des effets secondaires, veuillez contacter votre professionnel de la santé. L'Agence de la santé publique du Canada (ASPC), Santé Canada et nom du fabricant ne peuvent pas donner de conseils médicaux.</paragraph>
                 <paragraph styleCode="Boxed Last">
-                  <content styleCode="bold">À l’intention des professionnels de la santé : </content> Si un patient présente un effet secondaire après avoir reçu un vaccin, veuillez remplir le <linkHtml href="https://www.canada.ca/fr/sante-publique/services/immunisation/declaration-manifestations-cliniques-inhabituelles-suite-immunisation/formulaire.html">formulaire approprié de déclaration de manifestations cliniques inhabituelles (MCI)</linkHtml> selon votre province ou territoire et l’envoyer à votre unité de santé locale.</paragraph>
+                  <content styleCode="bold">À l'intention des professionnels de la santé : </content> Si un patient présente un effet secondaire après avoir reçu un vaccin, veuillez remplir le <linkHtml href="https://www.canada.ca/fr/sante-publique/services/immunisation/declaration-manifestations-cliniques-inhabituelles-suite-immunisation/formulaire.html">formulaire approprié de déclaration de manifestations cliniques inhabituelles (MCI)</linkHtml> selon votre province ou territoire et l'envoyer à votre unité de santé locale.</paragraph>
               </text>
               <effectiveTime value="20241201"/>
             </section>
@@ -3740,8 +3609,8 @@
           <component>
             <section ID="c9d75711-2ce9-451e-aa51-91026ec1555e">
               <id root="be74b6e6-c431-4a5f-a18e-ed321b081456"/>
-              <code code="pmi15" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Conservation"/>
-              <title>Conservation</title>
+              <code code="pmi15" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Conservation :"/>
+              <title>Conservation :</title>
               <text>
                 <paragraph>Texte</paragraph>
                 <paragraph>Gardez hors de la portée et de la vue des enfants.</paragraph>
@@ -3752,16 +3621,16 @@
           <component>
             <section ID="f6693e7a-21c9-492f-833b-4e8f3911d3a5">
               <id root="be74b6e6-c431-4a5f-a18e-ed321b381446"/>
-              <code code="pmi16" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Pour en savoir plus sur [NOM COMMERCIAL] :"/>
+              <code code="pmi16" codeSystem="2.16.840.1.113883.2.20.6.63" displayName="Pour en savoir plus sur [NOM COMMERCIAL] :"/>
               <title>Pour en savoir plus sur NOM COMMERCIAL :</title>
               <text>
                 <list listType="unordered">
                   <item>Parlez-en avec votre professionnel de la santé.</item>
-                  <item>Consultez la monographie intégrale rédigée à l’intention des professionnels de la santé, qui renferme également les Renseignements destinés aux patient·e·s. Ce document se trouve sur <linkHtml href="https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/base-donnees-produits-pharmaceutiques.html">le site Web de Santé Canada </linkHtml>, et sur le <linkHtml href="https://www.yourwebsite.com">site Web du fabricant </linkHtml>ou peut être obtenu en téléphonant au 1-800-555-5555.</item>
+                  <item>Consultez la monographie intégrale rédigée à l'intention des professionnels de la santé, qui renferme également les Renseignements Destinés aux Patient·e·s. Ce document se trouve sur <linkHtml href="https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medicaments/base-donnees-produits-pharmaceutiques.html">le site Web de Santé Canada </linkHtml>, et sur le <linkHtml href="https://www.yourwebsite.com">site Web du fabricant </linkHtml>ou peut être obtenu en téléphonant au 1-800-numéro de téléphone.</item>
                 </list>
                 <paragraph>Le présent feuillet a été rédigé par Nom du fabricant.</paragraph>
-				<paragraph>Nom et adresse du distributeur ou de l’importateur canadiens facultatifs</paragraph>
-                <paragraph>Date d’approbation AAAA-MM-JJ : AAAA-MM-JJ</paragraph>
+				<paragraph>Nom et adresse du distributeur ou de l'importateur canadiens facultatifs</paragraph>
+                <paragraph>Date d'approbation : AAAA-MM-JJ</paragraph>
 				<paragraph>Déclarations de marque de commerce facultatives</paragraph>
               </text>
               <effectiveTime value="20241201"/>
